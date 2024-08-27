@@ -1,12 +1,28 @@
+body{
+    font-family: sans-serif;
+}
+.styletext{
+    font-family: "Barlow", sans-serif;
+    font-weight: 400;
+     font-style: normal;
+}
+.styletext2{
+    font-family: "Barlow", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
 .section1{
     background-image: url(../images/image1.png);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
-    height: 80vh;
+    height: 100vh;
+    padding: 0px 20%;
+    color: #fff;
 }
 .logo span{
     cursor: pointer;
+    letter-spacing: 2px;
 }
 #copyNotification {
     visibility: hidden;
@@ -48,4 +64,64 @@
 @keyframes fadeout {
     from {bottom: 30px; opacity: 1;}
     to {bottom: 0; opacity: 0;}
+}
+.head{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 45px;
+}
+.headertext{
+    display: flex;
+    gap: 50px;
+}
+.centertext{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+    height: 90%;
+    /* margin-top: -125px; */
+}
+.centertext div h1{
+    font-size: 55px;
+    letter-spacing: 10px;
+}
+.maintext1{
+    text-align: right;
+    width: 50%;
+    margin-top: 25px;
+    font-size: 20px;
+    line-height: 150%;
+}
+.button1{
+    padding: 15px 25px;
+    background-color: #c5a47e;
+    color: #fff;
+    border-radius: 25px;
+}
+.button1 button{
+    margin-top: 45px;
+    font-weight: 500;
+}
+.leftblock{
+    width: 350px;
+    height: 400px;
+    background-color: #2b2b2b;
+    position: absolute;
+    left: 0px;
+}
+.leftline{
+    width: 150px;
+    height: 100%;
+    background-color: #2b2b2b;
+    position: absolute;
+    left: 0px;
+}
+.leftblock div{
+    z-index: 99;
+    color: #fff;
+    position: relative;
+}
+.munber{
+    color: #c5a47e;
 }
